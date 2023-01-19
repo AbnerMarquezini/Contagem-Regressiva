@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 140, 255);
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    user-select: none;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.4);
+}
+
+.title{
+    font-size: calc(10px + 3vw);
+}
+
+.contagem{
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.h1 {
+    font-size: calc(10px + 7vw);
+    text-shadow: 0 0 7px whitesmoke;
+}
+
+#date{
+    padding: 10px;
+    border-radius: 20px;
+    background-color:lavender;
+}
+
+#botao{
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color:lavender;
+    width: 125px;
+}
+
+#botao:hover {
+    background-color: cadetblue;
+    box-shadow: 10 10 black;
+}
