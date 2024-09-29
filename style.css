@@ -9,7 +9,9 @@ body{
     font-family: 'Courier New', Courier, monospace;
     user-select: none;
 }
-
+h2{
+    font-size: 15px;
+}
 .container{
     display:flex;
     flex-direction: column;
